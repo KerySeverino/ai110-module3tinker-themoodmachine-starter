@@ -23,6 +23,8 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "hopeful",
+    "proud",
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +38,7 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "dead",
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +53,11 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "just aced my exam no cap 😂",
+    "I absolutely love sitting in traffic for 2 hours :)",
+    "lowkey sad it's over but highkey proud of how far I've come",
+    "everything is fine 💀",
+    "woke up, went to class, came home",
 ]
 
 # Human labels for each post above.
@@ -65,6 +73,11 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "positive",  # "just aced my exam no cap 😂"
+    "negative",  # "I absolutely love sitting in traffic for 2 hours :)"
+    "mixed",     # "lowkey sad it's over but highkey proud of how far I've come"
+    "negative",  # "everything is fine 💀"
+    "neutral",   # "woke up, went to class, came home"
 ]
 
 # TODO: Add 5-10 more posts and labels.
